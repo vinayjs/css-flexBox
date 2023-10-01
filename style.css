@@ -10,10 +10,12 @@ body{
 
 .flex-container{
     display: flex;
+    flex-direction: column;
     background-color: #f4f4f4;
     height: 400px;
-    justify-content: space-between;
-    align-items: center;
+    /* when using flex-direction:column; justify content acts on the cross axis and align items on the main axis as the main axis is vertical and cross axis is horizontal*/
+    justify-content: space-around;
+    align-items: start;
 }
 
 /* .flex-container::after{
@@ -29,7 +31,4 @@ body{
     color: black;
     margin: 10px;
     /* float: left; */
-}
-.item:nth-of-type(2){
-    align-self: baseline;
 }
