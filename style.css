@@ -11,18 +11,25 @@ body{
 .flex-container{
     display: flex;
     background-color: #f4f4f4;
+    height: 400px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.flex-container::after{
+/* .flex-container::after{
     content: "";
     clear: both;
     display: block;
-}
+} */
+
 .item {
     width: 100px;
     height: 100px;
     background: yellow;
     color: black;
     margin: 10px;
-    float: left;
+    /* float: left; */
+}
+.item:nth-of-type(2){
+    align-self: baseline;
 }
