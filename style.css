@@ -18,11 +18,6 @@ body{
     align-items: start;
 }
 
-/* .flex-container::after{
-    content: "";
-    clear: both;
-    display: block;
-} */
 
 .item {
     width: 100px;
@@ -30,5 +25,8 @@ body{
     background: yellow;
     color: black;
     margin: 10px;
-    /* float: left; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
