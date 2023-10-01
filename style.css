@@ -10,17 +10,18 @@ body{
 
 .flex-container{
     display: flex;
-    flex-direction: column;
-    background-color: #f4f4f4;
+    /* flex-direction: column; */
+    background-color: #ae8f8f;
     height: 400px;
     /* when using flex-direction:column; justify content acts on the cross axis and align items on the main axis as the main axis is vertical and cross axis is horizontal*/
     justify-content: space-around;
     align-items: start;
+    flex-wrap: wrap;
 }
 
 
 .item {
-    width: 100px;
+    width: 200px;
     height: 100px;
     background: yellow;
     color: black;
